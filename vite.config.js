@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '', // <-- Set this to your repo name
+  base: '/ClockInOut/', // This must match your repo name!
 });
